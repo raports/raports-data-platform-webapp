@@ -3,20 +3,22 @@ import localFont from "next/font/local";
 import "./globals.css";
 import React from "react";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const openSans = localFont({
+  src: "./fonts/OpenSans.ttf",
+  variable: "--font-open-sans",
+  weight: "100 200 300 400 500 700 800 900",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const spaceGrotesk = localFont({
+  src: "./fonts/SpaceGrotesk.ttf",
+  variable: "--font-space-grotesk",
+  weight: "300 400 500 700",
 });
 
 export const metadata: Metadata = {
   title: "Raports Data Platform",
-  description: "Your All-in-One Data Platform for all your data needs",
+  description:
+    "The all-in-one solution for data analytics and management. It features a BI Dashboards, Data Market, Data Management Services and various ML tools. Integrated Chat GPT and a Data Quality Monitor make it ideal for organizations seeking streamlined data operations.",
 };
 
 export default function RootLayout({
@@ -27,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${openSans.className} ${spaceGrotesk.variable} antialiased`}
       >
         {children}
       </body>

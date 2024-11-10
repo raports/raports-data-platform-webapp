@@ -1,5 +1,8 @@
 const Home = () => (
-  <div className="text-3xl font-black text-blue-700">Welcome to the app</div>
+  <>
+    <div className="h1-bold">Welcome to the app</div>
+    <div className="h1-bold font-space-grotesk">Welcome to the app</div>
+  </>
 );
 
 export default Home;
