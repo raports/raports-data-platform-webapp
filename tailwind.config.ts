@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          "100": "#CEE5FD",
+          "100": "#E7F2FE",
           "500": "#2389F5",
           "700": "#0F2590",
         },
@@ -52,6 +52,9 @@ const config: Config = {
       fontFamily: {
         "open-sans": ["var(--font-open-sans)"],
         "space-grotesk": ["var(--font-space-grotesk)"],
+      },
+      backgroundImage: {
+        auth: "url('/images/auth-background.png')",
       },
     },
   },
