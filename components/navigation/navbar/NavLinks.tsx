@@ -35,6 +35,7 @@ const NavLinks = ({ isMobileNav = false }: { isMobileNav?: boolean }) => {
               <Link
                 href={item.route}
                 key={item.label}
+                title={item.label}
                 className={cn(
                   isActive ? "bg-light-700" : "",
                   "flex items-center p-2 hover:bg-gray-100 text-dark-400 rounded-lg"
