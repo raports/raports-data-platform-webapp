@@ -53,9 +53,6 @@ const config: Config = {
         "open-sans": ["var(--font-open-sans)"],
         "space-grotesk": ["var(--font-space-grotesk)"],
       },
-      backgroundImage: {
-        auth: "url('/images/auth-background.png')",
-      },
     },
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports

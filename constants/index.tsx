@@ -34,13 +34,13 @@ export const navigationLinks = [
       },
       {
         icon: BiBarChartSquare,
-        route: "/bi",
+        route: "/bi-dashboards",
         label: "BI Dashboards",
       },
       {
         icon: BiWindowAlt,
-        route: "/data-apps",
-        label: "Data Apps",
+        route: "/bi-apps",
+        label: "BI Apps",
       },
     ],
   },
@@ -69,8 +69,8 @@ export const navigationLinks = [
     links: [
       {
         icon: BiAbacus,
-        route: "/price-predictors",
-        label: "Data Marts",
+        route: "/forecasting",
+        label: "Forecasting",
       },
       {
         icon: BiChat,
