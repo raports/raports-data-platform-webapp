@@ -10,7 +10,7 @@ const GlobalSearch = () => {
         <Input
           type="text"
           placeholder="Search for dashboards, datasets, and apps..."
-          className="paragraph-regular no-focus border-none bg-transparent text-dark400_light700 shadow-none outline-none"
+          className="paragraph-regular no-focus border-none bg-transparent text-dark400_light700 shadow-none outline-hidden"
         />
       </div>
     </div>
