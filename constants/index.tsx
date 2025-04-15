@@ -100,3 +100,34 @@ export const navigationLinks = [
     ],
   },
 ];
+
+export const tools = [
+  {
+    id: 1,
+    title: "Airflow",
+    description: "",
+    url: "https://airflow.raports.net",
+    image: "/images/tools/airflow.png",
+  },
+  {
+    id: 2,
+    title: "Nifi",
+    description: "",
+    url: "https://nifi.raports.net/nifi",
+    image: "/images/tools/nifi.png",
+  },
+  {
+    id: 3,
+    title: "Kafka",
+    description: "",
+    url: "https://conduktor.raports.net",
+    image: "/images/tools/kafka.png",
+  },
+  {
+    id: 4,
+    title: "Power BI",
+    description: "",
+    url: "https://app.powerbi.com/",
+    image: "/images/tools/powerbi.png",
+  },
+];
