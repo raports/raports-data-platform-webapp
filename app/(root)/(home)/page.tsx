@@ -1,7 +1,16 @@
-const Home = () => (
-  <>
-    <div className="h1-bold">Welcome to the app</div>
-  </>
-);
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+const Home = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/tools");
+  }, [router]);
+
+  return null;
+};
 
 export default Home;
