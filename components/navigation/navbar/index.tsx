@@ -15,10 +15,11 @@ const Navbar = () => {
         </p>
       </Link>
 
-      <GlobalSearch />
+      {/* <GlobalSearch /> */}
 
-      <div className="flex-between gap-3">
-        <Theme />
+      <Theme />
+
+      {/* <div className="flex-between gap-3">
 
         <form
           action={async () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
         </form>
 
         <MobileNavigation />
-      </div>
+      </div> */}
     </nav>
   );
 };
