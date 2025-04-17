@@ -209,7 +209,7 @@ export const tools = [
       "Turns any SQL database into a smart spreadsheet-like interface. Helps teams collaborate on data without needing to write queries. Deployed on my private Kubernetes cluster.",
     url: "https://nocodb.raports.net",
     image: "/images/tools/nocodb.png",
-    visitButtonText: "Visit",
+    visitButtonText: "Go to NocoDB",
     tags: ["Editor"],
   },
 ];

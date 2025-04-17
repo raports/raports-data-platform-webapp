@@ -23,7 +23,7 @@ const ToolCard = ({
   tags,
 }: Tool) => (
   <div className="shadow-light100_darknone w-full">
-    <div className="background-light900_dark200 light-border flex flex-col w-full items-center justify-between rounded-2xl border p-6">
+    <div className="background-light900_dark200 light-border flex flex-col w-full h-full items-center justify-between rounded-2xl border p-6">
       {/* Title and Image */}
       <div className="flex w-full items-center justify-between">
         <h3 className="h3-bold text-dark200_light900 line-clamp-1">{title}</h3>

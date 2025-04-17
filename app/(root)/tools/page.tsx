@@ -4,8 +4,7 @@ import ToolCard from "@/components/cards/ToolCard";
 
 const page = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 p-4">
-      {" "}
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8">
       {tools.map((tool) => (
         <ToolCard key={tool.id} {...tool} />
       ))}
