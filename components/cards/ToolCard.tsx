@@ -59,10 +59,18 @@ const ToolCard = ({
       </div>
 
       {/* Buttons */}
-      <div className="flex justify-start items-center gap-4 mt-8 w-full">
-        <Button type="submit" className="min-w-[120px]">
-          {visitButtonText}
-        </Button>
+      <div className="flex justify-start items-center gap-4 mt-4 w-full">
+        <Link
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="base-semibold text-dark400_light500 hover:text-dark200_light900"
+        >
+          <Button type="button" className="min-w-[120px]">
+            {visitButtonText}
+          </Button>
+        </Link>
+
         <Link
           href={`/tools/${id}`}
           className="base-semibold text-dark400_light500 hover:text-dark200_light900"
