@@ -71,12 +71,12 @@ const ToolCard = ({
           </Button>
         </Link>
 
-        <Link
+        {/* <Link
           href={`/tools/${id}`}
           className="base-semibold text-dark400_light500 hover:text-dark200_light900"
         >
           View docs
-        </Link>
+        </Link> */}
       </div>
     </div>
   </div>
