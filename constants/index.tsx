@@ -174,6 +174,16 @@ export const tools = [
   },
   {
     id: 8,
+    title: "Spark",
+    description:
+      "Unified analytics engine for big data processing, with built-in modules for SQL, streaming, machine learning, and graph processing. Deployed on my private Kubernetes cluster",
+    url: "https://spark.raports.net",
+    image: "/images/tools/spark.png",
+    visitButtonText: "Go to Spark",
+    tags: ["ETL"],
+  },
+  {
+    id: 9,
     title: "MinIO",
     description:
       "High-performance object storage solution compatible with Amazon S3. Ideal for storing unstructured data like files, backups, and logs. Deployed on my private Kubernetes cluster.",
@@ -183,27 +193,37 @@ export const tools = [
     tags: ["Storage", "S3"],
   },
   {
-    id: 9,
-    title: "PostgreSQL",
-    description:
-      "Advanced open-source relational database with robust SQL support. Suitable for transactional and analytical workloads with strong community backing. Deployed on my private Kubernetes cluster. Access using bytebase.",
-    url: "https://bytebase.raports.net",
-    image: "/images/tools/postgres.png",
-    visitButtonText: "Go to Bytebase",
-    tags: ["Database", "SQL"],
-  },
-  {
     id: 10,
-    title: "Clickhouse",
+    title: "Elasticsearch",
     description:
-      "Column-oriented database management system optimized for OLAP workloads. Offers lightning-fast query performance on large-scale datasets. Deployed on my private Kubernetes cluster. Access using bytebase.",
-    url: "https://bytebase.raports.net",
-    image: "/images/tools/clickhouse.png",
-    visitButtonText: "Go to Bytebase",
-    tags: ["Database", "SQL"],
+      "Distributed search and analytics engine designed for horizontal scalability, reliability, and real-time search capabilities. Ideal for log and event data analysis. Deployed on my private Kubernetes cluster.",
+    url: "https://kibana.raports.net",
+    image: "/images/tools/elasticsearch.png",
+    visitButtonText: "Go to Kibana",
+    tags: ["Search", "Analytics"],
   },
   {
     id: 11,
+    title: "PostgreSQL",
+    description:
+      "Advanced open-source relational database with robust SQL support. Suitable for transactional and analytical workloads with strong community backing. Deployed on my private Kubernetes cluster. Access using pgAdmin.",
+    url: "https://pgadmin.raports.net",
+    image: "/images/tools/postgres.png",
+    visitButtonText: "Go to pgAdmin",
+    tags: ["Database", "SQL"],
+  },
+  {
+    id: 12,
+    title: "Clickhouse",
+    description:
+      "Column-oriented database management system optimized for OLAP workloads. Offers lightning-fast query performance on large-scale datasets. Deployed on my private Kubernetes cluster. Access using clickhouse's playground.",
+    url: "https://clickhouse.raports.net/play",
+    image: "/images/tools/clickhouse.png",
+    visitButtonText: "Go to Clickhouse",
+    tags: ["Database", "SQL"],
+  },
+  {
+    id: 13,
     title: "NocoDB",
     description:
       "Turns any SQL database into a smart spreadsheet-like interface. Helps teams collaborate on data without needing to write queries. Deployed on my private Kubernetes cluster.",
