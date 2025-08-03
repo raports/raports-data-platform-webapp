@@ -1,4 +1,9 @@
-@import 'tailwindcss';
+/*
+  this is default globals.css file for all my projects using Tailwind CSS v4,
+  all colors and utility classes to use in web development
+*/
+
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -26,8 +31,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
 
-  --shadow-light-100:
-    0px 12px 20px 0px rgba(184, 184, 184, 0.03),
+  --shadow-light-100: 0px 12px 20px 0px rgba(184, 184, 184, 0.03),
     0px 6px 12px 0px rgba(184, 184, 184, 0.02),
     0px 2px 4px 0px rgba(184, 184, 184, 0.03);
   --shadow-light-200: 10px 10px 20px 0px rgba(218, 213, 213, 0.1);
@@ -41,21 +45,9 @@
   --font-space-grotesk: var(--font-space-grotesk);
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+  :root {
+    --radius: 0.5rem;
   }
 }
 
@@ -299,10 +291,4 @@
 @utility active-theme {
   filter: invert(53%) sepia(98%) saturate(3332%) hue-rotate(0deg)
     brightness(104%) contrast(106%) !important;
-}
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
 }
