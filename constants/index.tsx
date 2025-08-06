@@ -126,10 +126,10 @@ export const tools = [
     id: 3,
     title: "Superset",
     description:
-      "Open-source data exploration and visualization platform. Ideal for creating interactive dashboards and running SQL queries against various data sources. I'm using Preset.io's Superset cloud service.",
+      "Open-source data exploration and visualization platform. Ideal for creating interactive dashboards and running SQL queries against various data sources. Deployed on my private Kubernetes cluster.",
     url: "https://superset.raports.io",
     image: "/images/tools/superset.png",
-    visitButtonText: "Go to Preset",
+    visitButtonText: "Go to Superset",
     tags: ["BI"],
   },
   {
@@ -157,7 +157,7 @@ export const tools = [
     title: "Nifi",
     description:
       "Dataflow automation tool for routing, transforming, and managing data flows. Offers a visual interface for building complex streaming and batch pipelines. Deployed on my private Kubernetes cluster.",
-    url: "https://nifi.raports.net/nifi",
+    url: "https://nifi.raports.io/nifi",
     image: "/images/tools/nifi.png",
     visitButtonText: "Go to NiFi",
     tags: ["ETL"],
